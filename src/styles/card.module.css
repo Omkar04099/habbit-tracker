@@ -1,0 +1,40 @@
+.textLogo{
+    display: flex;
+}
+
+.textLogo h3{
+    text-transform: capitalize;
+    padding: 0 1rem;
+    font-size: 1.3rem;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.viewDelete{
+    display: flex;
+    align-items: center;
+}
+
+.viewDelete button{
+    font-size: 1.1rem;
+    padding: 0.65rem;
+    margin-right: 1rem;
+    border-radius: 11px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.viewDelete img:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px 6px lightslategray;
+    border-radius: 1rem;
+}
+
+.viewDelete button:hover{
+    background-color: lightslategray;
+    color: white;
+}

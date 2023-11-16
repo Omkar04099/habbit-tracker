@@ -1,0 +1,43 @@
+.home{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title{
+    font-size: 3rem;
+    color: lightslategray;
+}
+
+.addHabbitBtn{
+    display: flex;
+    align-items: center;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+.addHabbitBtn:hover{
+    background-color: lightslategray;
+    color: white;
+}
+
+.addHabbitBtn img{
+    padding-left: 0.5rem;
+}
+
+.addHabbitBtn p{
+    padding: 0 1rem;
+    font-size: 1.1rem;
+}
+
+.navContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+}
+
+.cardContainer{
+    width: 100%;
+}
