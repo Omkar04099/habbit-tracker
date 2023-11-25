@@ -10,7 +10,8 @@
 
 .container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 7vh 17vw;
 }
 
 .viewDelete{
