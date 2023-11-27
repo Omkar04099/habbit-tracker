@@ -35,9 +35,37 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 100vw;
+    width: 98vw;
 }
 
 .cardContainer{
     width: 100%;
 }
+
+
+@media screen and (max-width:400px) {
+    #title{
+        font-size: 5.5vw;
+    }
+
+    .addHabbitBtn{
+        height: 5vh;
+    }
+
+    .addHabbitBtn p{
+        padding: 0px 2vw;
+        font-size: 3.5vw;
+        font-weight: bold;
+    }
+
+    .addHabbitBtn img{
+        padding-left: 1vw;
+        height: 3vh;
+        width: 5vw;
+    }
+
+    .navContainer{
+        margin-top: 2vh;
+    }
+}
+

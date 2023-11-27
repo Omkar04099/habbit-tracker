@@ -48,7 +48,7 @@ const AddHabbit = () => {
 
   return (
     <div>
-        <Model isOpen={visible} onRequestClose={()=>setVisible(false)} style={{content:{margin:'auto',width:'32vw',height:'32vh',background:'lightSlateGrey',color:'black'}}}>
+        <Model isOpen={visible} className={styles.model} onRequestClose={()=>setVisible(false)} style={{content:{margin:'auto',width:'32vw',height:'32vh',background:'lightSlateGrey',color:'black'}}}>
         <form>
             <h2>Add a habbit</h2>
             <input type='text' id='habbit' placeholder='Go For A Jog...' value={habbit} onChange={handleAddHabbit} />

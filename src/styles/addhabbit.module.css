@@ -21,7 +21,22 @@ form{
 
 form input{
     font-size: 1rem;
-    padding: 2.5vh 4vw;
+    padding: 2.5vh 4vw 2.5vh 1vw;
     margin: 1rem;
     border-radius: 10px;
+}
+
+
+@media screen and (max-width:400px) {
+    .model{
+        position: absolute;
+        inset: 40px;
+        border-radius: 15px;
+        padding: 6vh 18vw;
+        width: 40vw !important;
+    }
+
+    .btn{
+        margin: 4vh 0;
+    }
 }

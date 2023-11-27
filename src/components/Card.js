@@ -13,7 +13,6 @@ function Card(heading) {
         setFlag(!flag);
     }
     const {id, title} = heading.task;
-    // console.log(id, title);
 
     const handleRemoveHabbit = (itemId) => {
         toast.warn('Habbit deleted successfully!',{
@@ -41,7 +40,7 @@ function Card(heading) {
                     <img src='https://cdn-icons-png.flaticon.com/128/2838/2838779.png' width={30} height={30} alt='calender' />
                     &nbsp;Week View
                 </button>
-                <img src='https://cdn-icons-png.flaticon.com/128/6711/6711573.png' onClick={() => handleRemoveHabbit(id)} height={35} width={35} alt='delete'/>
+                <img src='https://cdn-icons-png.flaticon.com/128/6711/6711573.png' onClick={() => handleRemoveHabbit(id)} id={styles.delete} height={35} width={35} alt='delete'/>
             </div>
         </div>
         <div>

@@ -1,0 +1,67 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+i{
+    display: flex !important;
+    border: 1.4px solid;
+    border-radius: 50%;
+    width: 11px;
+    height: 13px;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.action{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 6vh 0px;
+}
+
+.card{
+    width: 16vw;
+    border: 1px solid;
+    border-radius: 10px;
+    padding-top: 4vh;
+    margin: 0 1vw;
+}
+
+.date{
+    display: flex;
+    justify-content: center;
+}
+
+#i1:hover{
+    background-color: green;
+}
+
+#i2:hover{
+    background-color: red;
+}
+
+#i3:hover{
+    background-color: lightslategray;
+}
+
+@media only screen and (max-width:480px) {
+    .container{
+        flex-wrap: wrap;
+    }
+
+    .card{
+        width: 30vw;
+        margin: 3vh 0;
+    }
+
+    .Toastify__toast-container{
+        width: 77vw !important;
+        padding: 0;
+        margin: 0;
+        right: 0 !important;
+    }
+
+    
+}
