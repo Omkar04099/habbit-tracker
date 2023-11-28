@@ -7,12 +7,15 @@ import {ToastContainer, toast} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 function Card(heading) {   
+
     const [flag, setFlag] = useState(false);
     const dispatch = useDispatch();
     const handleClick = ()=> {
         setFlag(!flag);
     }
-    const {id, title} = heading.task;
+    const {id,title} = heading.task;
+    const habbitId = heading.habbitId
+    // console.log(heading.habbitId);
 
     const handleRemoveHabbit = (itemId) => {
         toast.warn('Habbit deleted successfully!',{
@@ -44,7 +47,7 @@ function Card(heading) {
             </div>
         </div>
         <div>
-            {flag && <WeekView />}
+            {flag && <WeekView taskId={habbitId} />}
         </div>
         <ToastContainer />
     </div>

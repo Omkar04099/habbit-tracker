@@ -7,6 +7,10 @@
     cursor: pointer;
 }
 
+.model{
+    display: flex;
+}
+
 .btn:hover{
     background-color: white;
     color: black;
@@ -17,6 +21,7 @@ form{
     flex-direction: column;
     align-items: center;
     margin: auto;
+    padding: 0 3.5vw;
 }
 
 form input{
@@ -29,11 +34,10 @@ form input{
 
 @media screen and (max-width:400px) {
     .model{
-        position: absolute;
-        inset: 40px;
         border-radius: 15px;
-        padding: 6vh 18vw;
-        width: 40vw !important;
+        padding: 0 17vw;
+        display: flex;
+        justify-content: center;
     }
 
     .btn{

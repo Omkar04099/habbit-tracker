@@ -57,10 +57,10 @@ i{
     }
 
     .Toastify__toast-container{
-        width: 77vw !important;
+        width: 77vw ;
         padding: 0;
         margin: 0;
-        right: 0 !important;
+        right: 0 ;
     }
 
     
