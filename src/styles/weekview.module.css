@@ -1,6 +1,15 @@
+
+.heading{
+    display: flex;
+    justify-content: center;
+    margin-top: 16vh;
+}
+
 .container{
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    height: 50vh;
 }
 
 i{
@@ -32,6 +41,23 @@ i{
 .date{
     display: flex;
     justify-content: center;
+}
+
+.btn{
+    font-size: 1rem;
+    padding: 0.8rem 3rem;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    margin: auto;
+    border: 1px solid;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
 }
 
 #i1:hover{
